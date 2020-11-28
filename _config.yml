@@ -15,22 +15,20 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "공부하는 개발자" # Meta 태그에 들어가는 영역 , masthead_title등이 없으면 기본값으로 나온다.
-title_separator          : "-" # 타이틀 사이 구분자 <title>Welcome to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어갑니다.
-subtitle                 : "Version 1.0" # 타이틀 아래에 나올 작은 글씨 
-name                     : "정성재"
-description              : "다양한 개발 공부를 하는 블로그" # Meta 태그에 들어가는 영역
-url                      : "https://SungjaeGH.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
+locale                   : "en-US"
+title                    : "Site Title"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # 홈페이지 기본 티져 이미지
-logo                     : # 타이틀 옆에 작게 들어갈 이미지. e.g. "/assets/images/500x300.png"
-masthead_title           : "공부하는 개발자 Blog" # 홈페이지 최 상탄에 들어갈 타이틀
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
-
-# 댓글 관련 부분
+words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -48,8 +46,6 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-
-# 구글 reCaptcha 세팅
 reCaptcha:
   siteKey                :
   secret                 :
@@ -97,15 +93,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "정성재"
-  avatar           : # 프로필 이미지
-  bio              : "꾸준히 공부하는 취준생입니다."
-  location         : "Republic of Korea"
-  email            : "dtc1674@naver.com"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "dtc1674@naver.com"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -117,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/SungjaeGH"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -133,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/SungjaeGH"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -270,7 +266,7 @@ compress_html:
     envs: development
 
 
-# Defaults Post들에 적용될 기본 설정들
+# Defaults
 defaults:
   # _posts
   - scope:
