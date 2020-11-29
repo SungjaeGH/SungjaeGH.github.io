@@ -1,9 +1,9 @@
 # 상단 메뉴바
 main:
   - title: "Category"
-    url: /categories/
+    url: _layouts/category.html
   - title: "Post by Year"
-    url: /year-archive/
+    url: _layouts/archive.html
 
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
