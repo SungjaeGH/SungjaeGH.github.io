@@ -1,10 +1,10 @@
 # 상단 메뉴바
 main:
   - title: "Category"
-    url: /category/
+    url: /categories/
   - title: "Post by Year"
-    url: /posts/
-  
+    url: /year-archive/
+
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
