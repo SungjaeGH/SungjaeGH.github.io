@@ -1,9 +1,9 @@
 # 상단 메뉴바
 main:
   - title: "Category"
-    url: https://sungjaegh.github.io/category/
+    url: "/category/"
   - title: "Post by Year"
-    url: https://sungjaegh.github.io/year-archive/
+    url: "/year-archive/"
 
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
