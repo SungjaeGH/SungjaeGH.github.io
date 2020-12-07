@@ -1,7 +1,7 @@
 # 상단 메뉴바
 main:
   - title: "Category"
-    url: "/category/"
+    url: "/categories/"
   - title: "Post by Year"
     url: "/year-archive/"
 
