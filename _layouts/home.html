@@ -4,6 +4,7 @@ layout: archive
 
 {{ content }}
 
+<!-- 최근 포스트 글자 -->
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -19,4 +20,5 @@ layout: archive
   {% endfor %}
 </div>
 
+<!-- 이전, 다음 버튼 -->
 {% include paginator.html %}
