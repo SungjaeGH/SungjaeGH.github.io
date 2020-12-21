@@ -7,93 +7,23 @@ categories:
 toc: true
 toc_sticky: true
 
-date: 2020-12-16
-last_modified_at: 2020-12-16
+date: 2020-12-21
+last_modified_at: 2020-12-22
 ---
 
-출처 : https://maktooob.tistory.com/35
+출처 : https://palyoung.tistory.com/72
 
-## 생성자
+## Annotation
 
-- 객체가 생성될 때 자동으로 실행되는 특수한 메소드
-- return형 명시 x
-- 클래스와 이름 동일
-- 오버로딩 가능
+- @를 이용
+- java코드에 주석을 달아 특별한 의미를 부여한 것
+- 컴파일러가 특정 오류를 억제하도록 지시하는 것과 같이 프로그램 코드의 일부가 아닌 프로그램에 관한 데이터를 제공, 코드에 정보를 추가하는 정형화된 방법
+- 사용 이유
+  - 해당 데이터들에 대한 유효 조건을 쉽게 파악 가능
+  - 코드의 양 줄어듬
+- 종류
+  - <strong>Built-in Annotation</strong> : JDK 내장
+  - <strong>Meta Annotation</strong> : Annotation에 대한 정보를 나타냄
+  - <strong>Custom Annotation</strong> : 개발자가 직접 만들어 내는 것
 
-```
-class Article {
-  int seq; // 글 번호
-  String subject; // 글 제목
-  String writer; // 작성자
-
-  public Article(int seq, String subject, String writer) {
-    this.seq = seq;
-    this.subject = subject;
-    this.writer = writer;
-  }
-
-  public void print() {
-    System.out.println(this.seq);
-    System.out.println(this.subject);
-    System.out.println(this.writer);
-  }
-}
-
-public class Exam {
-  public static void main(String[] args) {
-    Book b = new Book();
-    b.read();
-    Article article1 = new Article(1, "자바연습1", "김갑돌");
-    article1.print();
-    System.out.println("--------");
-
-    Article article2 = new Article(2, "자바연습2", "김갑순");
-    article2.print();
-  }
-}
-```
-
-## Getter / Setter
-
-- 객체들이 데이터(필드)를 외부에서 직접적으로 접근하는 것을 막음 (객체 무결성 보장)
-- 데이터(필드)들은 private 접근 제한자로 막아두고, 각 필드의 Getter, Setter로 접근하는 방식을 취함
-
-```
-class Student {
-  // 은닉된 맴버변수 => 현재 블록안에서만 접근 가능
-  private String name;
-  private int age;
-
-  // 은닉된 맴버 변수에 값을 넣는 방법 => 메소드 사용
-  public void setName(String name) {
-    this.name = name;
-  }
-  public void setAge(int age) {
-    this.age = age;
-  }
-
-  // 은닉된 맴버 변수의 값을 읽는 방법
-  public String getName() {
-    return name;
-  }
-  public int getAge() {
-    return age;
-  }
-}
-
-public class Exam3_getter_setter {
-  public static void main(String[] args) {
-    Student s = new Student();
-    s.setName("김갑돌");
-    s.setAge(20);
-
-    String name = s.getName();
-    System.out.println("이름 : " + name);
-
-    int age = s.getAge();
-    System.out.println("나이 : " + age);
-  }
-}
-```
-
-***
+<h4> 주요 Annotation </h4>
