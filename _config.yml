@@ -1,39 +1,40 @@
 # Site
-repository: sproogen/resume-theme
+repository: sungjaegh/sungjaegh.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 정성재
+title: 백엔드 개발자
+email: dtc13579@gmail.com
+website: https://velog.io/@dtc1674/posts
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  SungjaeGH
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: jsung_jae
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +49,78 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  
+  3년 차 백엔드 개발자로 아크데이타에서 DB 데이터 복제 솔루션을 설계/개발/운영하였으며,
+  
+  주로 솔루션 내 서버 모듈인 Agent 모듈 통신을 위한 <u>REST API들을 개발/유지보수</u>하였습니다.
+  
+  <br>
+  
+  <mark><b>동료들과 원활한 커뮤니케이션을 통해 협업</b></mark>하는 것을 좋아합니다.
+  * 사람을 좋아하는 성향이라 어떠한 환경에 있던 주변 사람들과 원만한 관계를 유지하면서 지냅니다.
+  * <u>동료들의 의견을 경청하고 적극적으로 활용하려는 태도</u>로 서버와 모듈 간의 UDS 통신 이슈를 해결했던 경험이 있습니다.
+  
+  코드의 품질을 높히기 위한 <mark><b>클린 코드</b></mark>에 관심이 많습니다.
+  * 혼자만 이해하는 코드를 짜는 것은 프로그램의 성능저하 뿐만 아니라 동료들과의 협업에도 피해를 준다고 생각합니다.
+  * 레거시 코드를 리팩토링하면서 담당 모듈의 성능을 <u>100% 상승</u>시켰던 경험이 있습니다.
+  
+  <mark><b>배움을 통해 지속적으로 발전</b></mark>하는 것을 좋아합니다.
+  * <u>스터디</u>를 통해 동료들과 지식을 공유하고, 부족한 부분을 보완하며 함께 성장하길 원합니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Careers # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 아크데이타
+        link: http://www.iarkdata.com/main
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: 시스템 백엔드 개발자
+        caption: 2021.03 ~ 2023.09
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          실시간 이기종 Database 복제 솔루션 운영/개발
+
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          [Ark for CDC 솔루션 운영](https://jsungj.notion.site/Ark-for-CDC-54ec3b62ca7348ba80128f95995d5197)
+            * 담당 모듈(Agent, Pmon, Mgr) 내 발생하는 <u>이슈 90% 해결</u>
+            * 담당 모듈(Agent, Pmon, Mgr)의 레거시 코드 리팩토링으로 <u>성능 100% 상승</u>
+            * Make 빌드 방식 개선으로 <u>빌드 속도 6배 단축</u>
+            * Agent 서버의 통신 API 테스트 방식 개선으로 <u>테스트 수행 시간 3배 단축</u>
+          
+          [Ark for CDC v2.1 개발 및 테스트](https://jsungj.notion.site/ArkCDC-v2-1-9490f05bb0f8453883e1b0f9eef56a70)
+            * <u>약 10억건</u>의 우리종합금융 서버의 <u>1:5 데이터 초기 복제</u> 및 <u>실시간 데이터 복제</u> 환경 구축
+            * Agent 서버의 <u>통신 API 처리 속도 6배 단축</u>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: 성능 극대화를 위한 SQL튜닝 및 사례 연구
+        caption: 2021.12 ~ 2021.12
+        sub_title: 재단법인대구디지털혁신진흥원
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Oracle 기반의 SQL 튜닝 교육
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+          * DB 복제 솔루션 개발/유지보수에 필요한 Oracle 아키텍처 이해의 필요성을 느껴 참석
+          * 기본적인 RDBMS 아키텍처, 인덱스, 실행 계획 교육
 
 # Footer
 footer_show_references: true
