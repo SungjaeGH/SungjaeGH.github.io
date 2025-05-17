@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 # twitter_username: facespics
-github_username:  SungjaeGH
+github_username: SungjaeGH
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -68,24 +68,49 @@ about_content: | # this will include new lines to allow paragraphs
   * <u>스터디</u>를 통해 동료들과 지식을 공유하고, 부족한 부분을 보완하며 함께 성장하길 원합니다.
 
 content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  #  - title: Projects # Title for the section
+  #    layout: list # Type of content section (list/text)
+  #    content:
+  #      - layout: top-middle
+  #        title: Super awesome project
+  #        link: github.com/sproogen
+  #        # link_text: Project Website
+  #        additional_links:
+  #          - title:  sproogen/modern-resume-theme
+  #            icon: fab fa-github
+  #            url: github.com/sproogen/modern-resume-theme
+  #          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #          #   icon: fab fa-github
+  #          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #        quote: >
+  #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #        description: | # this will include new lines to allow paragraphs
+  #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Languages & Frameworks
+        description: |
+          Java, C  
+          Spring Boot, JPA, QueryDSL  
+          REST API, JWT, Spring Security  
+
+      - layout: left
+        title: Infrastructure & Tools
+        description: |
+          MySQL, Oracle, Linux  
+          Docker, AWS EC2/S3  
+          Git, GitHub, GitLab, Jira  
+
+      - layout: left
+        title: Practices & Collaboration
+        description: |
+          테스트 코드 (JUnit5, Mockito)  
+          Swagger, REST Docs  
+          애자일 개발, 코드 리뷰, Notion
+
   - title: Careers # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -113,6 +138,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 프로그래머스 데브코스
+        caption: 2024.11 ~ 2025.04
+        sub_title: (주)그렙 / 프로그래머스
+        quote: >
+          Java & 클라우드 기반 백엔드 개발 심화 교육 과정
+        description: | # this will include new lines to allow paragraphs
+          * Java 문법 및 객체지향 설계 원칙 학습, REST API 구현 등 실무 위주의 백엔드 개발 교육  
+          * Spring MVC, Spring Security, JWT, OAuth2 기반 인증/인가, Swagger 및 REST Docs를 활용한 API 문서화 실습  
+          * MySQL 중심 DB 설계 및 정규화, Docker, AWS 기반 배포 및 CI/CD 파이프라인 개념 학습  
+          * Git/GitHub, Jira를 활용한 팀 프로젝트 경험 (CRUD 프로젝트, REST API 프로젝트, 최종 서비스 구현)
+
+      - layout: left
         title: 성능 극대화를 위한 SQL튜닝 및 사례 연구
         caption: 2021.12 ~ 2021.12
         sub_title: 재단법인대구디지털혁신진흥원
@@ -134,4 +171,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
